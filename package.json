@@ -8,7 +8,8 @@
     "build": "tsc",
     "serve": "node dist/index.js",
     "postbuild-win": "./bin/postbuild.bat",
-    "postbuild-mac": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh"
+    "postbuild-mac": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh",
+    "postbuild": "chmod +x bin/postbuild.sh && ./bin/postbuild.sh"
   },
   "author": "",
   "license": "ISC",
